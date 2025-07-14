@@ -22,3 +22,19 @@ The generated models — specifically, the one produced during training and used
 
 > [!IMPORTANT]
 > To eventually run the code please check the dependencies file. This project was run on a GEFORCE RTX 5090 using Pytorch and related libraries for Cuda version cu12.9, so maybe you need to install a different Pytorch version for your Cuda version.
+
+### Code in this repository
+
+**_RAFT_of.py_:** uses RAFT model and Insightface to detect and crop faces from the central part of a video and compute optical flow on frames exctracted
+
+**_optical_flow_normalization.py_:** is a two steps algorithm that computes the min/max values in .npy flows and then normalizes all the optical flows extracted
+
+**_midas_depth_map.py_:** uses MiDaS depth estimation model to compute depth of frames and normalizes them using a min/max normalization
+
+**_feature_extractor.py_:** is the main pipeline that takes the preprocessed dataset and a CNN backbone using ResNet18, modified for multimodal input with a Transformer head for temporal aggregation of frame features to extract features and classification
+
+**_feature_extractor_test.py_:** is the test script for inference using the model saved after training
+
+**_pruning_and_quantization.py_:** is a script for prune and quantize the model 
+
+
