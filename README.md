@@ -37,4 +37,5 @@ The generated models — specifically, the one produced during training and used
 
 **_pruning_and_quantization.py_:** is a script for prune and quantize the model 
 
-
+> [!NOTE]
+> In the scripts you will find my directory for the dataset, the models, the folders of frames, flows and depths. To run the code you need to download the necessary from Google Drive folders and change the path to your directories.
