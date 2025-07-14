@@ -1,4 +1,6 @@
 # Truth in Motion: Depth and Flow Enhanced DeepFake Detection
+![Image](https://github.com/user-attachments/assets/9353894b-e827-4944-b891-3c0bbcdf8e8e)
+
 Powerful tools and software for creating and processing multimedia content have been made
 available by recent advances in visual media technology. In particular, AI-driven methods made the production
 of Deepfakes videos simpler than ever. These fake and manioulated videos are dangerous because they can be
