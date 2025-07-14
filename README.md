@@ -16,3 +16,7 @@ As said before to compute optical flow and depth, RAFT and MiDaS were used, down
 
 ### Models
 The generated models — specifically, the one produced during training and used for inference, the pruned model, and the model obtained after pruning and quantization — can be found in the following Google Drive folder [CV_PROJECT_MODELS](https://drive.google.com/drive/folders/1DUYvY1-5Mv6dMm_4NY-rWAurp5BeK0UF?usp=drive_link)
+
+
+> [!IMPORTANT]
+> To eventually run the code please check the dependencies file. This project was run on a GEFORCE RTX 5090 using Pytorch and related libraries for Cuda version cu12.9, so maybe you need to install a different Pytorch version for your Cuda version.
